@@ -21,7 +21,7 @@ def banner():
 banner(); 
 
 text = input('Введите пример: ')
-if len(text.split(".")) == 2:
+if len(text.split(".")) != 0:
     print("Вводите целое число")
 else:
     Result = eval(text)
